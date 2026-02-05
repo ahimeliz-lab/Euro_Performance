@@ -139,6 +139,10 @@ body.is-transitioning footer {
   margin: 0 auto;
 }
 
+.container.narrow {
+  width: min(920px, 92vw);
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -482,6 +486,31 @@ body.is-transitioning footer {
 .section-header p {
   color: var(--muted);
   max-width: 680px;
+}
+
+.ai-authority .section-title {
+  margin-bottom: 12px;
+}
+
+.common-questions .qa-list {
+  display: grid;
+  gap: 18px;
+}
+
+.common-questions .qa-item {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  box-shadow: var(--shadow);
+}
+
+.common-questions .qa-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.common-questions .qa-item p {
+  color: var(--muted);
 }
 
 .services-section {
@@ -1037,6 +1066,11 @@ textarea:focus {
   display: grid;
   gap: 6px;
   font-size: 0.9rem;
+}
+
+.mission-statement,
+.local-anchor {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .lightbox {

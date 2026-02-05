@@ -22,10 +22,10 @@ Notes:
 
 ## How to change phone, address, hours, email
 Edit these in `index.html`:
-- Phone number and tel link: search for `(407) 204-0026` and `tel:+14072040026`.
+- Phone number and tel link: search for `(689) 234-4230` and `tel:+16892344230`.
 - Email: search for `service@pn-auto.example`.
 - Hours: search for `Mon-Fri 8:00 AM-6:00 PM (placeholder)`.
-- Address and map link: search for `1234 Placeholder Ave` and update the `Open in Maps` link.
+- Address and map link: search for `14 W Fletcher St` and update the `Open in Maps` link.
 
 ## How to change reviews
 - Replace the review cards inside the `#reviews` section in `index.html`.
@@ -41,5 +41,6 @@ Netlify:
 ## Image detection behavior
 - `app.js` tries `IMAGE_MANIFEST` first, then falls back to common filenames.
 - If no images are found, the site shows clean SVG placeholders with instructions.
+
 
 
