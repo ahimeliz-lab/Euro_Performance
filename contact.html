@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Euro Performance</title>
+  <meta name="description" content="Contact Euro Performance to book a European auto repair or diagnostics appointment.">
+  <meta property="og:title" content="Contact | Euro Performance">
+  <meta property="og:description" content="Call, email, or request an appointment for European auto repair and diagnostics.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-placeholder.svg">
+  <meta property="og:url" content="https://example.com/contact.html">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Euro Performance",
+    "description": "European auto repair and diagnostics.",
+    "telephone": "+1-407-204-0026",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1234 Placeholder Ave",
+      "addressLocality": "Orlando",
+      "addressRegion": "FL",
+      "postalCode": "32801",
+      "addressCountry": "US"
+    },
+    "areaServed": "Orlando, FL",
+    "url": "https://example.com"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-no-transition="true">Skip to content</a>
+  <div id="pageTransition" class="page-transition" aria-hidden="true">
+    <div class="wipe"></div>
+  </div>
+  <header class="site-header" aria-label="Primary">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-logo" src="galery/logo/logo.jpg" alt="Euro Performance logo">
+        <div class="brand-text">
+          <span class="brand-name">Euro Performance</span>
+          <span class="brand-tag">European Auto Repair | Diagnostics</span>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="diagnostics.html">Diagnostics</a>
+        <a href="process.html">Process</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+        <a class="is-active" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="contact.html" aria-label="Book Appointment">Book Appointment</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" tabindex="-1">Contact & Appointments</h2>
+          <p>Call, email, or submit the form. We will respond quickly with next steps.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Euro Performance</h3>
+            <ul class="contact-list">
+              <li><strong>Phone:</strong> <a href="tel:+14072040026">(407) 204-0026</a></li>
+              <li><strong>Email:</strong> <a href="mailto:service@pn-auto.example">service@pn-auto.example</a></li>
+              <li><strong>Hours:</strong> Mon-Fri 8:00 AM-6:00 PM (placeholder)</li>
+              <li><strong>Address:</strong> 1234 Placeholder Ave, Orlando, FL 32801</li>
+            </ul>
+            <a class="btn btn-secondary" href="https://maps.google.com/?q=1234+Placeholder+Ave+Orlando+FL+32801" target="_blank" rel="noopener">Open in Maps</a>
+          </div>
+          <form id="contact-form" class="contact-form" aria-label="Contact form">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="(###) ###-####">
+            </div>
+            <div class="field">
+              <label for="vehicle">Vehicle</label>
+              <input id="vehicle" name="vehicle" type="text" placeholder="2014 Audi A4" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Tell us the symptoms or service needed"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Request</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            <p id="form-success" class="form-success" hidden>Thanks - we'll reach out shortly.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Euro Performance - European Auto Repair and Diagnostics.</p>
+      <p>(c) <span id="year"></span> Euro Performance. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+

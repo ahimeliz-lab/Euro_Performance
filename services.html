@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | Euro Performance</title>
+  <meta name="description" content="European auto repair and diagnostics services for Audi, VW, BMW, and Mercedes.">
+  <meta property="og:title" content="Services | Euro Performance">
+  <meta property="og:description" content="European auto repair and diagnostics services.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-placeholder.svg">
+  <meta property="og:url" content="https://example.com/services.html">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Euro Performance",
+    "description": "European auto repair and diagnostics.",
+    "telephone": "+1-407-204-0026",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1234 Placeholder Ave",
+      "addressLocality": "Orlando",
+      "addressRegion": "FL",
+      "postalCode": "32801",
+      "addressCountry": "US"
+    },
+    "areaServed": "Orlando, FL",
+    "url": "https://example.com"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-no-transition="true">Skip to content</a>
+  <div id="pageTransition" class="page-transition" aria-hidden="true">
+    <div class="wipe"></div>
+  </div>
+  <header class="site-header" aria-label="Primary">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-logo" src="galery/logo/logo.jpg" alt="Euro Performance logo">
+        <div class="brand-text">
+          <span class="brand-name">Euro Performance</span>
+          <span class="brand-tag">European Auto Repair | Diagnostics</span>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a class="is-active" href="services.html" aria-current="page">Services</a>
+        <a href="diagnostics.html">Diagnostics</a>
+        <a href="process.html">Process</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="contact.html" aria-label="Book Appointment">Book Appointment</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="services" class="section reveal services-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" tabindex="-1">Services Built Around Accurate Diagnosis</h2>
+          <p>European systems require precise testing. We take the time to validate the cause before we replace parts.</p>
+        </div>
+        <div class="services-layout" data-service-menu>
+          <div class="services-menu" role="tablist" aria-label="Service menu">
+            <button class="service-tab is-active" id="tab-diagnostics" role="tab" aria-selected="true" aria-controls="service-diagnostics">Diagnostics &amp; Electrical</button>
+            <button class="service-tab" id="tab-engine" role="tab" aria-selected="false" aria-controls="service-engine" tabindex="-1">Engine</button>
+            <button class="service-tab" id="tab-brakes" role="tab" aria-selected="false" aria-controls="service-brakes" tabindex="-1">Brakes &amp; Suspension</button>
+            <button class="service-tab" id="tab-ac" role="tab" aria-selected="false" aria-controls="service-ac" tabindex="-1">A/C &amp; Cooling Systems</button>
+            <button class="service-tab" id="tab-maintenance" role="tab" aria-selected="false" aria-controls="service-maintenance" tabindex="-1">Maintenance</button>
+            <button class="service-tab" id="tab-inspections" role="tab" aria-selected="false" aria-controls="service-inspections" tabindex="-1">Pre-Purchase Inspections</button>
+          </div>
+          <div class="services-panels" aria-live="polite">
+            <article class="service-panel is-active" id="service-diagnostics" role="tabpanel" aria-labelledby="tab-diagnostics">
+              <div class="service-panel-inner">
+                <div class="service-hero">
+                  <div class="service-hero-copy">
+                    <p class="panel-eyebrow">Diagnostics &amp; Electrical</p>
+                    <h3>Diagnostics &amp; Electrical</h3>
+                    <p>Modern European vehicles rely on multiple control modules and networked electrical systems. A fault code only indicates where to start testing - it does not identify the actual failure.</p>
+                    <p>We follow a diagnostics-first process built around verification, testing, and confirmation - not assumptions - so repairs are accurate, controlled, and completed correctly the first time.</p>
+                  </div>
+                  <div class="service-media service-hero-media" aria-label="Diagnostics gallery">
+                    <img src="galery/Diagnostics.jpg" alt="Diagnostics scan and testing equipment">
+                    <img src="galery/Diagnostics1.jpg" alt="Technician performing electrical diagnostics">
+                    <img src="galery/Diagnostics3.jpg" alt="European vehicle diagnostic inspection">
+                  </div>
+                </div>
+                <div class="service-grid">
+                  <div class="service-block">
+                    <h4 class="service-subtitle">Our 4-Step Diagnostic Method</h4>
+                    <ol class="service-steps">
+                      <li><strong>Condition -</strong> We confirm the customer concern and document the exact operating conditions under which the fault occurs (cold start, load, temperature, driving state).</li>
+                      <li><strong>Cause -</strong> Using OEM-level scan data, electrical load testing, and network communication analysis, we isolate the true failure point - not just the symptom or stored fault.</li>
+                      <li><strong>Correction -</strong> Only after the cause is verified do we recommend repairs, parts, or system corrections, presented with clear options and cost transparency.</li>
+                      <li><strong>Confirm -</strong> After repairs, we perform post-repair testing, live data validation, and road testing to confirm the issue is fully resolved and no related faults remain.</li>
+                    </ol>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">What this service includes</h4>
+                    <ul class="checklist">
+                      <li>OEM-level scans with live data analysis</li>
+                      <li>Electrical circuit testing and load verification under real operating conditions</li>
+                      <li>Control module and CAN network communication checks</li>
+                      <li>Documented findings with repair recommendations and next steps</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="service-callout">
+                  <h4 class="service-subtitle">Why this matters</h4>
+                  <p>Electrical and drivability issues on European vehicles are often caused by wiring faults, signal loss, or system communication issues - not failed parts.</p>
+                  <p>Without proper testing, parts replacement becomes guesswork and frequently leads to repeat failures.</p>
+                  <p class="service-note">Designed for owners who value accuracy over shortcuts. This service is not intended for parts replacement without proper testing.</p>
+                </div>
+                <a class="btn btn-primary service-cta" href="contact.html">Next step: Schedule professional diagnostic testing</a>
+                <div class="service-faq">
+                  <h4 class="service-subtitle">Common questions</h4>
+                  <div class="service-faq-item">
+                    <strong>Why do you charge for diagnostics?</strong>
+                    <p>Proper diagnostics require time, testing, and data analysis. This process protects you from unnecessary repairs.</p>
+                  </div>
+                  <div class="service-faq-item">
+                    <strong>Will you replace parts without approval?</strong>
+                    <p>No. All findings and recommendations are presented before any repairs are performed.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="service-panel" id="service-engine" role="tabpanel" aria-labelledby="tab-engine" aria-hidden="true">
+              <div class="service-panel-inner">
+                <p class="panel-eyebrow">Precision repairs</p>
+                <h3>Engine</h3>
+                <p>Modern European engines are highly integrated systems. Timing, cooling, lubrication, and electronic controls all work together - when one fails, related systems are often affected.</p>
+                <p>We approach engine repairs methodically, ensuring the root cause is identified, the repair is technically correct, and the result is verified, not assumed.</p>
+                <div class="service-grid">
+                  <div class="service-block">
+                    <h4 class="service-subtitle">What we address</h4>
+                    <ul class="checklist">
+                      <li>Timing chain and timing belt systems</li>
+                      <li>Cooling system failures and overheating concerns</li>
+                      <li>Oil leaks, oil consumption, and pressure-related faults</li>
+                      <li>Drivability issues caused by mechanical or control-system failures</li>
+                    </ul>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">How engine repairs are handled</h4>
+                    <ul class="checklist">
+                      <li>Repairs are based on verified diagnostic findings, not assumptions</li>
+                      <li>OEM service procedures and torque specifications are followed</li>
+                      <li>Related components are inspected to prevent repeat failures</li>
+                      <li>Post-repair testing and road validation are performed before delivery</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="service-callout">
+                  <p><strong>Engine work is only performed after proper diagnostics and customer approval.</strong> Most engine repairs begin with a diagnostic evaluation to confirm failure points and scope.</p>
+                </div>
+                <h4 class="service-subtitle">Why this matters</h4>
+                <p>Engine repairs on European vehicles frequently fail when only the visible problem is addressed. Ignoring related components, operating conditions, or updated factory procedures leads to repeat breakdowns and escalating costs.</p>
+                <p class="service-note">Designed for owners who want the repair done correctly - not temporarily.</p>
+                <a class="btn btn-primary service-cta" href="contact.html">Next step: Start with diagnostic testing</a>
+
+                <div class="service-rebuild">
+                  <h4 class="service-subtitle">Engine Rebuilds - Performed to Factory Standards</h4>
+                  <p>When an engine requires more than a repair, we perform full engine rebuilds using factory service procedures - step by step, with no shortcuts.</p>
+                  <p>Every rebuild follows OEM specifications from teardown through final inspection. There is no guesswork in the process.</p>
+                  <div class="service-rebuild-gallery" aria-label="Engine rebuild gallery">
+                    <img src="galery/Engine1.jpg" alt="Engine rebuild detail 1">
+                    <img src="galery/Engine2.jpg" alt="Engine rebuild detail 2">
+                    <img src="galery/Engine3.jpg" alt="Engine rebuild detail 3">
+                    <img src="galery/Engine4.jpg" alt="Engine rebuild detail 4">
+                    <img src="galery/Engine5.jpg" alt="Engine rebuild detail 5">
+                    <img src="galery/Engine6.jpg" alt="Engine rebuild detail 6">
+                    <img src="galery/Engine7.jpg" alt="Engine rebuild detail 7">
+                    <img src="galery/Engine8.jpg" alt="Engine rebuild detail 8">
+                    <img src="galery/Engine9.jpg" alt="Engine rebuild detail 9">
+                    <img src="galery/Engine10.jpg" alt="Engine rebuild detail 10">
+                  </div>
+                  <div class="service-grid three">
+                    <div class="service-block">
+                      <h4 class="service-subtitle">Machining &amp; Measurements</h4>
+                      <p>All block and cylinder head machining is handled by a professional automotive machine shop we work with regularly. Clearances, tolerances, and critical measurements are verified to factory specification before final assembly.</p>
+                    </div>
+                    <div class="service-block">
+                      <h4 class="service-subtitle">Parts &amp; Components</h4>
+                      <p>We use OEM or OEM-equivalent components, upgrading where it improves long-term reliability. A typical engine rebuild includes new piston rings, rod and main bearings, an oil pump, a complete timing chain kit, and all new seals, gaskets, and one-time-use hardware.</p>
+                    </div>
+                    <div class="service-block">
+                      <h4 class="service-subtitle">Assembly &amp; Verification</h4>
+                      <p>The engine is reassembled, timed, and inspected according to factory procedures. Final checks ensure proper timing alignment, oiling integrity, and mechanical correctness.</p>
+                    </div>
+                  </div>
+                  <p class="service-note">Engine rebuilds are recommended only after diagnostics confirm that repair is no longer a reliable option.</p>
+                  <a class="btn btn-secondary service-cta" href="contact.html">Next step: Schedule a diagnostic evaluation</a>
+                </div>
+              </div>
+            </article>
+            <article class="service-panel" id="service-brakes" role="tabpanel" aria-labelledby="tab-brakes" aria-hidden="true">
+              <div class="service-panel-inner">
+                <p class="panel-eyebrow">Confidence restored</p>
+                <h3>Brakes &amp; Suspension</h3>
+                <p>Braking and suspension systems on European vehicles are engineered as integrated safety systems. Pad wear, rotor condition, bushings, and suspension geometry all affect stopping distance, stability, and ride quality.</p>
+                <p>We service these systems using measured inspection and OEM-correct components - not assumptions or one-size-fits-all parts.</p>
+                <div class="service-media service-hero-media" aria-label="Brakes and suspension gallery">
+                  <img src="galery/Suspension1.jpg" alt="Suspension component inspection">
+                  <img src="galery/Suspension2.jpg" alt="Brake and suspension system detail">
+                  <img src="galery/Suspension3.jpg" alt="Control arm and bushing work">
+                  <img src="galery/Suspension4.jpg" alt="Suspension assembly close-up">
+                  <img src="galery/Suspension5.jpg" alt="Brake and suspension service bay">
+                </div>
+                <div class="service-grid">
+                  <div class="service-block">
+                    <h4 class="service-subtitle">What we service</h4>
+                    <ul class="checklist">
+                      <li>Brake pads, rotors, wear sensors, and hydraulic components</li>
+                      <li>Control arms, bushings, ball joints, and suspension links</li>
+                      <li>Steering and chassis components affecting alignment and handling</li>
+                    </ul>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">How brakes &amp; suspension work is handled</h4>
+                    <ul class="checklist">
+                      <li>Component wear is measured and documented, not estimated</li>
+                      <li>Brake service is performed as a matched system, not isolated parts</li>
+                      <li>OEM or OEM-equivalent components are selected for proper fit and performance</li>
+                      <li>Suspension work considers ride height, geometry, and alignment impact</li>
+                    </ul>
+                  </div>
+                </div>
+                <p class="service-symptoms">Common symptoms we address include brake vibration, squealing, pulling under braking, clunking noises, uneven tire wear, and unstable handling.</p>
+                <div class="service-callout">
+                  <h4 class="service-subtitle">Why this matters</h4>
+                  <p>Brake noise, vibration, uneven wear, and poor ride quality are usually the result of improper parts selection or incomplete system servicing. On European vehicles, shortcuts lead to repeat issues and compromised safety.</p>
+                  <p class="service-note">Designed for owners who want predictable braking, stable handling, and long-term reliability - not temporary fixes.</p>
+                </div>
+                <a class="btn btn-primary service-cta" href="contact.html">Next step: Schedule a brake and suspension inspection</a>
+              </div>
+            </article>
+            <article class="service-panel" id="service-ac" role="tabpanel" aria-labelledby="tab-ac" aria-hidden="true">
+              <div class="service-panel-inner">
+                <p class="panel-eyebrow">Year-round comfort</p>
+                <h3>A/C &amp; Cooling Systems</h3>
+                <p>Air conditioning and engine cooling systems on European vehicles are precision-controlled systems, not simple recharge or top-off services. Refrigerant charge, oil balance, pressure regulation, and electronic control all work together - when one element is off, performance and reliability suffer.</p>
+                <p>We service A/C and cooling systems using measured testing, OEM procedures, and proper recovery equipment to ensure correct operation and long-term reliability.</p>
+                <div class="service-media service-hero-media is-duo" aria-label="A/C and cooling gallery">
+                  <img src="galery/AC1.jpg" alt="A/C service machine connected to a European vehicle">
+                  <img src="galery/AC2.jpg" alt="A/C compressor and system components">
+                </div>
+                <div class="service-grid">
+                  <div class="service-block">
+                    <h4 class="service-subtitle">What we service</h4>
+                    <ul class="checklist">
+                      <li>A/C compressors, condensers, evaporators, and expansion valves</li>
+                      <li>Refrigerant leak detection and system integrity testing</li>
+                      <li>Radiators, water pumps, thermostats, and cooling modules</li>
+                      <li>Coolant leaks, overheating concerns, and pressure-related failures</li>
+                    </ul>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">How A/C &amp; cooling work is handled</h4>
+                    <ul class="checklist">
+                      <li>Refrigerant is fully recovered, measured, and recharged to factory specification</li>
+                      <li>Leak detection is performed before parts replacement when loss is suspected</li>
+                      <li>Cooling systems are pressure-tested to identify internal and external leaks</li>
+                      <li>OEM or OEM-equivalent components are used to maintain proper system balance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="service-callout">
+                  <p><strong>We do not perform blind recharges.</strong> Loss of refrigerant or coolant always has a cause, and that cause must be identified.</p>
+                </div>
+                <h4 class="service-subtitle">Why this matters</h4>
+                <p>Improper A/C servicing can damage compressors, contaminate systems, and lead to repeat failures. Cooling system shortcuts often result in overheating, warped components, or internal engine damage.</p>
+                <p>European vehicles are especially sensitive to incorrect refrigerant charge, improper bleeding, and non-approved components.</p>
+                <p class="service-note">Designed for owners who want reliable climate control and proper engine temperature - not temporary relief.</p>
+                <p class="service-note">Many cooling and A/C failures are linked to underlying engine or electrical issues, which are evaluated when necessary.</p>
+                <a class="btn btn-primary service-cta" href="contact.html">Next step: Schedule an A/C and cooling inspection</a>
+              </div>
+            </article>
+            <article class="service-panel" id="service-maintenance" role="tabpanel" aria-labelledby="tab-maintenance" aria-hidden="true">
+              <div class="service-panel-inner">
+                <p class="panel-eyebrow">Factory accurate</p>
+                <h3>Maintenance</h3>
+                <p>Routine maintenance on European vehicles is not about checking boxes - it is about protecting precision components and preventing expensive failures before they occur.</p>
+                <p>We follow conservative, experience-based service intervals, even when manufacturer marketing or oil companies suggest extended intervals that prioritize ownership cost optics over long-term reliability.</p>
+                <div class="service-media service-hero-media" aria-label="Maintenance gallery">
+                  <img src="galery/Maintenance1.jpg" alt="Spark plug service inspection">
+                  <img src="galery/Maintenance2.jpg" alt="OEM filter and fluids">
+                  <img src="galery/Maintenance3.jpg" alt="Hands-on maintenance service">
+                  <img src="galery/Maintenance4.jpg" alt="Fluid service and inspection">
+                  <img src="galery/Maintenance5.jpg" alt="Maintenance parts and tools">
+                </div>
+                <div class="service-block">
+                  <h4 class="service-subtitle">Oil Changes - Engine Protection Comes First</h4>
+                  <p>Modern European engines operate under high heat, tight tolerances, and extended boost or load conditions. While some manufacturers advertise 10,000-mile oil change intervals, real-world wear tells a different story.</p>
+                  <p><strong>Our recommendation:</strong> Oil changes every 5,000 miles or less.</p>
+                  <ul class="checklist">
+                    <li>Oil degrades long before 10k miles in real driving conditions</li>
+                    <li>Sludge formation accelerates timing chain, turbo, and bearing wear</li>
+                    <li>Extended intervals increase oil consumption and internal deposits</li>
+                    <li>Shorter oil intervals extend engine life, especially on turbocharged European vehicles</li>
+                  </ul>
+                </div>
+                <div class="service-grid three">
+                  <div class="service-block">
+                    <h4 class="service-subtitle">Spark Plugs - Small Part, Big Impact</h4>
+                    <p>Spark plugs play a critical role in combustion efficiency, power delivery, and engine longevity. As plugs wear, misfires increase cylinder stress and place additional load on coils and catalytic converters.</p>
+                    <ul class="checklist">
+                      <li>Worn plugs cause incomplete combustion and misfires</li>
+                      <li>Misfires increase fuel dilution and internal heat</li>
+                      <li>Delayed replacement often leads to coil failures and catalyst damage</li>
+                    </ul>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">Transmission Service - "Lifetime" Is Not a Lifetime</h4>
+                    <p>Many manufacturers claim lifetime transmission fluid, but fluid degradation is inevitable due to heat, shear, and contamination.</p>
+                    <p><strong>Our recommendation:</strong> Transmission service every ~40,000 miles.</p>
+                    <ul class="checklist">
+                      <li>Old fluid loses lubricating and hydraulic properties</li>
+                      <li>Valve bodies and clutch packs are highly sensitive to contamination</li>
+                      <li>Delayed service leads to harsh shifts, slipping, and premature failure</li>
+                    </ul>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">Engine Air Filter - Engine Health</h4>
+                    <p>The engine air filter protects sensitive components from dirt, debris, and airborne contaminants.</p>
+                    <ul class="checklist">
+                      <li>Restricted filters reduce airflow and efficiency</li>
+                      <li>Increases turbocharger workload</li>
+                      <li>Accelerates internal wear over time</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="service-grid">
+                  <div class="service-block">
+                    <h4 class="service-subtitle">Cabin Air Filter - Your Health Matters</h4>
+                    <p>Cabin air filters are often overlooked, but they directly affect air quality inside the vehicle.</p>
+                    <ul class="checklist">
+                      <li>Traps dust, pollen, mold, and pollutants</li>
+                      <li>Reduces HVAC performance when clogged</li>
+                      <li>Causes unpleasant odors and poor air circulation</li>
+                    </ul>
+                  </div>
+                  <div class="service-block">
+                    <h4 class="service-subtitle">How maintenance is handled</h4>
+                    <ul class="checklist">
+                      <li>Maintenance is based on condition, mileage, and usage - not guesswork</li>
+                      <li>OEM or OEM-equivalent fluids and components are used</li>
+                      <li>Service intervals are explained clearly before work is approved</li>
+                      <li>Preventive maintenance is cheaper - and safer - than reactive repairs</li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="btn btn-primary service-cta" href="contact.html">Next step: Schedule a maintenance inspection</a>
+              </div>
+            </article>
+            <article class="service-panel" id="service-inspections" role="tabpanel" aria-labelledby="tab-inspections" aria-hidden="true">
+              <div class="service-panel-inner">
+                <p class="panel-eyebrow">Know before you buy</p>
+                <h3>Pre-Purchase Inspection (PPI) - European Vehicles</h3>
+                <h4 class="service-subtitle">Buy with facts - not hope.</h4>
+                <p>Modern European vehicles can hide expensive problems behind clean interiors and smooth test drives. Our Pre-Purchase Inspection is designed to expose mechanical risk, deferred maintenance, and future liability before you commit.</p>
+                <p>We work for you, not the seller.</p>
+                <div class="service-media service-hero-media" aria-label="Pre-purchase inspection gallery">
+                  <img src="galery/PPI1.jpg" alt="Pre-purchase inspection detail 1">
+                  <img src="galery/PPI2.jpg" alt="Pre-purchase inspection detail 2">
+                  <img src="galery/PPI3.jpg" alt="Pre-purchase inspection detail 3">
+                  <img src="galery/PPI4.jpg" alt="Pre-purchase inspection detail 4">
+                  <img src="galery/PPI5.jpg" alt="Pre-purchase inspection detail 5">
+                  <img src="galery/PPI6.jpg" alt="Pre-purchase inspection detail 6">
+                </div>
+                <h4 class="service-subtitle">The 5-Point Pre-Purchase Inspection</h4>
+                <p>A true pre-purchase inspection is not about checking boxes. It is about identifying risk, safety exposure, and ownership cost. Our 5-Point Inspection focuses on the systems that matter most for safe operation and financial protection, evaluated through the lens of European vehicle engineering.</p>
+                <div class="service-block">
+                  <h4 class="service-subtitle">1. Tires - The Only Contact with the Road</h4>
+                  <p>Tires tell a story most buyers miss. We do not just measure tread depth - we analyze wear patterns, age, and fitment correctness.</p>
+                  <ul class="checklist">
+                    <li>Tread depth and remaining service life</li>
+                    <li>Uneven wear indicating alignment, suspension, or bushing issues</li>
+                    <li>Sidewall cracking, bulges, or impact damage</li>
+                    <li>Tire age (DOT date codes - critical on low-mileage cars)</li>
+                    <li>Proper load rating and manufacturer-approved sizing</li>
+                  </ul>
+                  <p class="service-note">Improper or aged tires compromise braking distance, wet traction, and stability, and often point to underlying suspension or alignment problems.</p>
+                </div>
+                <div class="service-block">
+                  <h4 class="service-subtitle">2. Brakes - Stopping Power, Not Just Pad Thickness</h4>
+                  <p>European braking systems are engineered for performance, not neglect. We assess braking as a system, not just consumables.</p>
+                  <ul class="checklist">
+                    <li>Brake pad thickness and wear balance</li>
+                    <li>Rotor condition (heat spots, scoring, warping)</li>
+                    <li>Caliper operation and slide function</li>
+                    <li>Brake line and hose integrity</li>
+                    <li>Electronic brake wear indicators and fault data (where applicable)</li>
+                  </ul>
+                  <p class="service-note">Worn or improperly serviced brakes affect safety and resale value. On European vehicles, incorrect brake service can trigger warning faults or uneven wear that becomes expensive quickly.</p>
+                </div>
+                <div class="service-block">
+                  <h4 class="service-subtitle">3. Lights &amp; Electrical Safety Systems</h4>
+                  <p>Lighting issues are often dismissed as minor. We verify functional operation and system integrity, not just bulb illumination.</p>
+                  <ul class="checklist">
+                    <li>Headlights (low/high beam performance, not just on/off)</li>
+                    <li>Brake lights, turn signals, hazards</li>
+                    <li>Warning messages related to lighting or body control modules</li>
+                    <li>Evidence of water intrusion, wiring damage, or aftermarket interference</li>
+                  </ul>
+                  <p class="service-note">Lighting faults on modern European cars often signal electrical issues, not just failed bulbs. These can escalate into module or network problems if ignored.</p>
+                </div>
+                <div class="service-block">
+                  <h4 class="service-subtitle">4. Fluids - The Health Indicators of the Vehicle</h4>
+                  <p>Fluids are the bloodwork of a car. We check both level and condition, because full does not mean healthy.</p>
+                  <ul class="checklist">
+                    <li>Engine oil condition and service evidence</li>
+                    <li>Coolant type, level, and contamination signs</li>
+                    <li>Brake fluid condition and moisture exposure</li>
+                    <li>Power steering or hydraulic systems (where applicable)</li>
+                    <li>Visible leaks, residue, or improper fluid types</li>
+                  </ul>
+                  <p class="service-note">Incorrect fluids, extended service intervals, or contamination are leading causes of engine, transmission, and cooling failures, especially on European platforms.</p>
+                </div>
+                <div class="service-block">
+                  <h4 class="service-subtitle">5. Steering &amp; Suspension - Control, Stability, and Safety</h4>
+                  <p>This is where many inspections become purely visual. We go further.</p>
+                  <ul class="checklist">
+                    <li>Steering components and joint integrity</li>
+                    <li>Suspension bushings, control arms, and mounts</li>
+                    <li>Shock/strut condition and damping behavior</li>
+                    <li>Signs of impact damage or improper repairs</li>
+                    <li>Seat belt operation and restraint system integrity</li>
+                  </ul>
+                  <p class="service-note">Steering and suspension directly affect handling, braking stability, and driver confidence. Wear here is often subtle but expensive if missed before purchase.</p>
+                </div>
+                <div class="service-callout">
+                  <h4 class="service-subtitle">Transparency first. Always.</h4>
+                  <p>You receive clear findings, safety-critical concerns vs. maintenance items, and honest guidance on risk, cost, and expectations. If the vehicle is a poor buy, we will tell you.</p>
+                </div>
+                <div class="service-callout">
+                  <p>Not to help you buy a car. To help you avoid buying the wrong one.</p>
+                  <p>A proper pre-purchase inspection protects your safety, your finances, and your long-term ownership experience.</p>
+                </div>
+                <a class="btn btn-primary service-cta" href="contact.html">Schedule a Pre-Purchase Inspection before you sign, wire, or commit</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Euro Performance - European Auto Repair and Diagnostics.</p>
+      <p>(c) <span id="year"></span> Euro Performance. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
