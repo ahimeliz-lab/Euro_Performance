@@ -1,0 +1,38 @@
+name: IndexNow
+
+on:
+  push:
+    branches:
+      - main
+  deployment_status:
+  workflow_dispatch:
+
+jobs:
+  submit:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
+      (
+        github.event_name == 'deployment_status' &&
+        github.event.deployment_status.state == 'success' &&
+        (
+          contains(github.event.deployment_status.environment_url || '', 'europerformancefl.com') ||
+          contains(github.event.deployment_status.target_url || '', 'europerformancefl.com')
+        )
+      )
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Submit sitemap URLs to IndexNow
+        env:
+          INDEXNOW_HOST: europerformancefl.com
+        run: node scripts/indexnow.mjs
